@@ -3,7 +3,10 @@ title: "Visualización de Tweets de la DuraznoConf"
 output: md_document
 ---
 
-![Header Duraznoconf](header.png)
+<p align="center">
+  <img src="header.png"/>
+</p>
+
 
 Les dejo acá el código de las imágenes que mostré en la [DuraznoConf](http://duraznoconf.uy/) de los tweets mencionando a la conferencia, por si se animan a jugar con algo de ésto con sus propias búsquedas de palabras en Twitter.
 
@@ -58,7 +61,9 @@ wordcloud(users, colors = viridis::viridis_pal(end = 0.8)(10),
           scale = c(3.5,.8), rot.per=.3)
 ```
 
-![Wordcloud de usuarios que mencionan Duraznoconf](mentions.png)
+<p align="center">
+  <img src="mentions.png" width=50%/>
+</p>
 
 Selecciono las palabras comúnes como "el", "es", "la" para que no las tome en cuenta:
 
@@ -89,7 +94,9 @@ wordcloud(words_used, colors = viridis::viridis_pal(end = 0.8)(10),
           scale = c(3.5,.2), rot.per=.2)
 ```
 
-![Wordcloud de palabras en tweets de Duraznoconf](words.png)
+<p align="center">
+  <img src="words.png" width=50%/>
+</p>
 
 Preparo los datos para armar la red de los mencionados en los Tweets:
 

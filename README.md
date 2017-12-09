@@ -1,5 +1,6 @@
-![Header Duraznoconf](header.png)
-
+<p align="center">
+<img src="header.png"/>
+</p>
 Les dejo acá el código de las imágenes que mostré en la
 [DuraznoConf](http://duraznoconf.uy/) de los tweets mencionando a la
 conferencia, por si se animan a jugar con algo de ésto con sus propias
@@ -43,8 +44,9 @@ DuraznoConf:
               min.freq = 800, random.color = TRUE, max.words = 100,
               scale = c(3.5,.8), rot.per=.3)
 
-![Wordcloud de usuarios que mencionan Duraznoconf](mentions.png)
-
+<p align="center">
+<img src="mentions.png" width=50%/>
+</p>
 Selecciono las palabras comúnes como "el", "es", "la" para que no las
 tome en cuenta:
 
@@ -71,8 +73,9 @@ mencionaron a la DuraznoConf:
               min.freq = 2, random.color = TRUE, max.words = 40,
               scale = c(3.5,.2), rot.per=.2)
 
-![Wordcloud de palabras en tweets de Duraznoconf](words.png)
-
+<p align="center">
+<img src="words.png" width=50%/>
+</p>
 Preparo los datos para armar la red de los mencionados en los Tweets:
 
     mentioned_users <- tweets %>% 
